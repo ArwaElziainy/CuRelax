@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+body{
+    margin: 0%;
+    padding: 0%;
+   height: 100vh;
+   width: 100vw;
+   background-image: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)), url(../images/wall7.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*------- Navigation menu -------*/
+.navbar-nav .nav-item .nav-link{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.navbar-nav{
+    align-self: center; 
+}
+.navbar{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    background-color: rgba(255,255,255,0.9) !important;
+}
+
+form .sign{
+    margin-right: 20px;
+    background-color: #6E9981;
+    color: #ffffff;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form .login{
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #6E9981;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form .sign:hover{
+    background-color: #6E9981;
+  border: none;
+  transition: 0.5s;
+  transform: scale(1.05,1.05);
+}
+form .login:hover{
+    background-color: #6E9981;
+    border: none;
+    transition: 0.5s;
+    transform: scale(1.05,1.05);
+}
+  button .nav-link{
+      text-decoration: none;  
+  }
+  .nav-link:hover{
+    color: #343a40;
+  }
+  .navbar-brand{
+    height: 3% !important;
+    margin-bottom: 1.5% !important;
+  }
+  .ad{
+    margin-right: 5%;
+    text-align: center;
+}
+.ad h4{
+    font-size: 35px;
+    margin-bottom: 25%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.go{
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid #50936a ;
+    border-radius: 15px;
+    padding: 4px;
+    color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  nav .container-fluid .collapse ul li.active a{
+      color: #000000;
+  }
+.dropdown {
+    list-style: none;
+    margin-right: 60px !important;
+   
+}
+.nav-link img{
+    border-radius: 50%;
+}
+.profile-menu{
+    border-radius: 20px !important;
+    
+}
+.profile-menu li .fa-solid{
+    margin-right: 5% !important;
+}
+.profile-menu h4{
+    text-align: center;
+}
+.dropdown-toggle{
+    color: #50936a !important;
+}
+.dropdown-item:hover{
+color: #50936a !important;
+background-color: transparent !important;
+}
+/*------- Navigation menu -------*/
+/*----edit modal----*/
+.edit-modal .modal{
+    margin-top: 6% !important;
+    z-index: 1000000;
+    }
+    .edit-modal .modal-content{
+        border-radius: 20px !important;
+    }
+    .edit-modal .modal-body{
+        height: 60vh !important;
+    }
+    .edit-modal h1{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #6E9981;
+    }
+    .profile-pic img{
+        border-radius: 50%;
+    }
+    .profile-pic{
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        left: 37%;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 1px solid #6E9981;
+    }
+    #photo{
+        width: 100%;
+        height: 100%;
+    }
+    #file{
+        display: none;
+    }
+    #uploadBtn{
+        height: 40px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        transform: translateX(-100%);
+        text-align: center;
+        background-color: rgba(0,0,0,0.7);
+        color: #ffffff;
+        line-height: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .cont{
+        margin-top: 40%;
+      
+       width: 95%;
+    }
+    .cont .col-lg-5 label{
+        width: 100%;
+        padding: 2%;
+        margin-bottom: 15%;
+    }
+    .cont .mb-3 label{
+        font-size: 17px;
+        margin-top: 3%;
+    }
+    
+    .cont .col-lg-5 input{
+        width: 100%;
+        padding: 3%;
+        margin-bottom: 15%;
+        border-radius: 15px;
+        border: 1px solid #50936a;
+    }
+    .edit-modal .form-check-label{
+        color: gray;
+    }
+    .edit-modal .modal-footer .btn{
+        background-color: #50936a;
+        border: none;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    .edit-modal .modal-footer .btn:hover{
+            transform: scale(1.2);
+            transition: 0.5s;
+        }
+        
+    /*----edit modal----*/
+    
+    /*----change password----*/
+    .change-modal .modal{
+        margin-top: 13%;
+        z-index: 1000000;
+    }
+    .change-modal .modal-content{
+            border-radius: 20px !important;
+    }
+    .change-modal .modal-body{
+            height: 30vh !important;
+    }
+    .change-modal h1{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #6E9981;
+    }
+    .change-modal .pass{
+        margin-top: 3.5%;
+    }
+    .change-modal .pass input{
+        padding: 2% !important;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid #6E9981;
+    }
+    .change-modal .modal-footer .btn{
+        background-color: #6E9981;
+        border: none;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    .change-modal .modal-footer .btn:hover{
+            transform: scale(1.2);
+            transition: 0.5s;
+        }
+    /*----change password----*/
+
+.pricing_plan{
+    width: 300px;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgb(0,0,0,0.2);
+    overflow: hidden;
+    font-family: 'lato'  ,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555555;
+    margin: 15px;
+}
+
+
+.pricingplan_header{
+    padding: 25px;
+    background-color: #009578;
+    color: #ffffff;
+}
+.pricingplan_title,
+.pricingplan_summary{
+    margin: 0;
+    text-align: center;
+
+}
+.pricingplan_title{
+    font-size: 1.5em;
+    font-weight: 400px;
+}
+.pricingplan_summary{
+    font-size: 1em;
+    font-weight: 300px;
+}
+.pricingplan_description{
+    padding: 25px;
+
+}
+.pricingplan_list{
+    margin: 0;
+    padding: 0;
+
+}
+.pricingplan_feature{
+    list-style: none;
+    margin: 0;
+    padding-left: 25px;
+    position: relative;
+    font-size: 0.9em;
+
+}
+.pricingplan_feature:not(:last-child){
+    margin-bottom: 0.5em;
+
+}
+.pricingplan_feature::before{
+    content: "\2714";
+    color: #009578;
+    position: absolute;
+    left: 0;
+
+}
+.pricingplan_actions{
+    padding: 25px;
+    border-top: 1px solid #eeeeee;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.pricingplan_button{
+    display: inline-block;
+    margin: 15px auto;
+    padding: 8px 20px;
+    text-decoration: none;
+    color:#009578;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #009578;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+
+}
+
+.pricingplan_button:hover{
+    background-color: #009578;
+    color: #ffffff;
+}
+
+.pricingplan_cost{
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+}
+.pricingplan_text{
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+.pricing_plan_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+/*----asses modal---*/ 
+.asses-modal .modal{
+    margin-top: 4% !important;
+}
+.asses-modal .modal-content{
+    border-radius: 20px !important;
+}
+.asses-modal .modal-body{
+    height: 60vh !important;
+}
+.asses-modal h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #50936a;
+}
+.asses-modal .modal-footer .btn{
+background-color: #50936a;
+border: none;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.asses-modal .modal-footer .btn:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+/*---------asses questions------*/
+.asses-Q legend{
+    width: 100%;
+}
+.asses-Q{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.asses-Q .form-check-label{
+    font-size: 13px;
+}
+#result{
+    line-height: 30px;
+}
+/*---------asses questions------*/
+ /*----footer---*/
+
+ .fo{
+    margin-top: 10%;
+    background-color: rgba(255,255,255,0.8);
+}
+.fab:hover{
+    color: #50936a!important;
+}
+.text-reset{
+    text-decoration: none;
+}
+
+.text-reset:hover{
+    color: #50936a !important;
+}
+  /*----footer---*/
+@media (max-width: 740px){
+    .pricing_plan_container{
+        display: block;
+    
+    }
+    .pricing_plan{
+        width: 400px;
+        font-size: 16px; 
+        height: 400px;
+    }
+    
+    .pricingplan_title{
+        font-size: 1.5em;
+        font-weight: 400px;
+    }
+    .pricingplan_summary{
+        font-size: 0.7em;
+        font-weight: 300px;
+    }
+    .pricingplan_description{
+        padding: 25px;
+    
+    }
+    .pricingplan_feature{
+        
+        font-size: 0.9em;
+    
+    }
+   
+
+}

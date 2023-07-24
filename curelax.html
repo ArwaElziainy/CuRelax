@@ -1,0 +1,642 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CURELAX</title>
+        <link rel="icon" href="images/logo2.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/curelax.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.6/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    </head>
+    <body >
+   
+<header>
+         <!--Navigation menu-->
+         <nav class="navbar navbar-expand-lg navbar-light shadow ">
+          <div class="container">
+            <a class="navbar-brand" href="curelax.html">
+            <img src="images/logo2.png" alt="" width="250"  class="d-inline-block ">
+              
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <div class="nav_icon">
+                <div class="line"></div>
+              </div>
+              <ul class="navbar-nav me-auto mb-2 ms-5 mb-lg-0 fs-5 ">
+                <li class="nav-item home active">
+                  <a class="nav-link  " aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item who" >
+                  <a class="nav-link who "  href="#who"> Who Are We</a>
+                </li>
+                <li class="nav-item success">
+                  <a class="nav-link "  href="#success">Successful Stories</a>
+                </li>
+                
+                <li class="nav-item course">
+                  <a class="nav-link "  href="#course">Courses</a>
+                </li>
+                <li class="nav-item Yoga">
+                  <a class="nav-link "  href="#Yoga">Yoga</a>
+                </li>
+            </li>
+            <li class="nav-item contactu">
+              <a class="nav-link "  href="#contactu">Contact Us</a>
+            </li>
+              </ul>
+             
+             <form class=" justify-content-end pt-2">
+          
+             <a href="reg.html">   <button class="btn sign btn-outline-dark me-2" type="button">Sign Up</button></a>
+            <a href="login.html"> <button class="btn  login btn-sm btn-outline-secondary" type="button">Login</button></a>
+                   
+            
+       </form>
+           
+          </div>
+        </nav>
+    <!--Navigation menu-->
+    
+    
+    <!--start body-->
+    <section id="home" class="start shadow overflow-x-hidden">
+      <div class="start-img">
+        <img src="./images/wall7.jpg">
+        <div class="img-overlay">
+          <div class="caption reveal">
+          <h1>  You Are The Answer</h1>
+            <button class="btn btn-primary bt-asses " data-bs-toggle="modal" data-bs-target="#asses-modal" type="button"><h2>Take The Assesment</h2> </button>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!--start body-->
+</header>
+
+<!----assesment-->
+
+<section class="asses-modal">
+  <div class="modal fade" id="asses-modal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="modal-title">Assesment</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form name="assesQ" id="assesQ">
+          <h5>According to the last two weeks</h5>
+            <div>
+              <h6>1. Have you been less active than usual? (Health)</h6>
+              <p><input type="radio" name="Qu1" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu1" value="No"> No</p>
+            </div>
+            <div>
+              <h6>2. On average, do you get 7-8 hours of sleep? (Health)</h6>
+              <p><input type="radio" name="Qu2" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu2" value="No"> No</p>
+            </div>
+            <div>
+              <h6>3. Do you suffer from excessive appetite or loss of appetite? (Health)</h6>
+              <p><input type="radio" name="Qu3" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu3" value="No"> No</p>
+            </div>
+            <div>
+              <h6>4. During work/study hours, do you have a hard time staying focused and concentrating on the task at hand? (Physical Symptom)</h6>
+              <p><input type="radio" name="Qu4" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu4" value="No"> No</p>
+            </div>
+            <div>
+              <h6>5. Do you experience headaches or muscle tension? (Physical Symptom)</h6>
+              <p><input type="radio" name="Qu5" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu5" value="No"> No</p>
+            </div>
+            <div>
+              <h6>6. Are you able to control your emotions in stressful situations? (Emotional Symptom)</h6>
+              <p><input type="radio" name="Qu6" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu6" value="No"> No</p>
+            </div> 
+            <div>
+              <h6>7. These days, are you easily irritated? (Emotional Symptom)</h6>
+              <p><input type="radio" name="Qu7" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu7" value="No"> No</p>
+            </div>
+            <div>
+              <h6>8. Do you find yourself worrying excessively lately? (Emotional Symptom)</h6>
+              <p><input type="radio" name="Qu8" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu8" value="No"> No</p>
+            </div>
+            <div>
+              <h6>9. Do you find it difficult to express your needs and thoughts to others? (Emotional Symptom)</h6>
+              <p><input type="radio" name="Qu9" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu9" value="No"> No</p>
+            </div>
+            <div>
+              <h6>10. Do you struggle with fulfilling both your personal and work responsibilities lately? (General)</h6>
+              <p><input type="radio" name="Qu10" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu10" value="No"> No</p>
+            </div>
+            </form>
+          
+        </div>
+        <div class="modal-footer">
+          <input type="submit" name="save_result" data-bs-toggle="modal" data-bs-target="#result-modal" value="submit" class="btn btn-primary" onclick="check()">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="result-modal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="modal-title">Your Result</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p id="result"></p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<!----assesment-->
+
+<!---Who are we-->
+<section id="who" class="whoarewe who">
+  
+<h1>Who Are We</h1>
+<div class="who-body row ">
+<div class="who-img col-lg-6 left ">
+<img class="reveal img-fluid" src="./images/mhealthgreen.png" width="400px" height="500px">
+</div>
+<div class="who-cap col-lg-6 Right reveal  shadow overflow-x-hidden">
+<h2>CuRelax</h2>
+<p>CuRelax is a website application that helps people who need  care and suffer from mild to moderate mental illness, by  providing them with yoga videos, courses, positive quotes, recommend games, books and movies, in addition to successful healing stories of people who were suffering from mental illness.<br> Also, Curelax provides recommendations to people who suffer from severe/extreme mental illness to go to Mental Health centers whom the platform partnered with, so they give them the best offers.
+</p>
+</div>
+</div>
+</section>
+<!---Who are we-->
+<!--succeeful stories-->
+<section id="success" class="successful">
+<div class="containers ">
+<div class="section-title">
+  <h1>Successful Stories</h1>
+  <span class="section-separator"></span>
+  <p>"Healing takes time, asking for help is a courageous step"</p>
+</div>
+</div>
+<div class="success-carousel-wrap reveal">
+  <div class="listing-carousel-button listing-carousel-button-next"> <i class="fa fa-caret-right" style="color: #6E9981;"></i> </div>
+  <div class="listing-carousel-button listing-carousel-button-prev"> <i class="fa fa-caret-left" style="color: #6E9981;"></i> </div>
+  <div class="success-carousel">
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="testi-item">
+        <div class="testi-avatar"> <img src="./images/21.jpg"> </div>
+        <div class="successful-text-before"> <i class="fa fa-quote-left"></i> </div>
+        <div class="successful-text">
+          <p>I think having positive inspirations around your home is needed to help you get through a rough day. <br>I heard today that where flowers grow there is hope. <br>I love that!</p>
+          <div class="successful-avatar">
+            <h3> Amr Ayman</h3>
+            
+          </div>
+        </div>
+        <div class="successful-text-after"> <i class="fa fa-quote-right"></i> </div>
+      </div>
+    </div>
+    <!----two-->
+    <div class="swiper-slide">
+      <div class="testi-item">
+        <div class="testi-avatar"> <img src="./images/3.jpg"> </div>
+        <div class="successful-text-before"> <i class="fa fa-quote-left"></i> </div>
+        <div class="successful-text">
+          
+          <p>I'm grateful to my body for giving me energy, strength, and movement.<br> I never want to take for granted all that my body and senses do for me every day.</p>
+          
+          <div class="successful-avatar">
+            <h3> Huda Ahmed</h3>
+           
+          </div>
+        </div>
+        <div class="successful-text-after"> <i class="fa fa-quote-right"></i> </div>
+      </div>
+    </div>
+    <!-------three-->
+    <div class="swiper-slide">
+      <div class="testi-item">
+        <div class="testi-avatar"> <img src="./images/4.jpg"> </div>
+        <div class="successful-text-before"> <i class="fa fa-quote-left"></i> </div>
+        <div class="successful-text">
+          
+          <p>Grateful to have made it this far, that I keep going when it isn't easy and I want to give up.<br> Grateful that I keep persevering, and for my family's and friends' support.</p>
+          
+          <div class="successful-avatar">
+            <h3> Hana Ramy</h3>
+          </div>
+        </div>
+        <div class="successful-text-after"> <i class="fa fa-quote-right"></i> </div>
+      </div>
+    </div>
+    <!--Four-->
+    <div class="swiper-slide">
+      <div class="testi-item">
+        <div class="testi-avatar"> <img src="./images/6.jpg"> </div>
+        <div class="successful-text-before"> <i class="fa fa-quote-left"></i> </div>
+        <div class="successful-text">
+         
+          <p>I am lucky that I can rely on my family and friends on my bad days.<br> They often remind me of how far I have come since those days when I thought my life was over.<br> They push me to keep going.</p>
+         
+          <div class="successful-avatar">
+            <h3> Nour Mohamed</h3>
+          </div>
+        </div>
+        <div class="successful-text-after"> <i class="fa fa-quote-right"></i> </div>
+      </div>
+    </div>
+    <!--five-->
+    <div class="swiper-slide">
+      <div class="testi-item">
+        <div class="testi-avatar"> <img src="./images/1.jpeg"> </div>
+        <div class="successful-text-before"> <i class="fa fa-quote-left"></i> </div>
+        <div class="successful-text">
+          
+          <p>While I have had my share of ups and downs and am aware that challenges lie ahead, I am confident in my ability to move forward with my life and work.</p>
+          
+          <div class="successful-avatar">
+            <h3> Ahmed Salem</h3>
+          </div>
+        </div>
+        <div class="successful-text-after"> <i class="fa fa-quote-right"></i> </div>
+      </div>
+    </div>
+    <!--six-->
+    <div class="swiper-slide">
+      <div class="testi-item">
+        <div class="testi-avatar"> <img src="./images/2.jpeg"> </div>
+        <div class="successful-text-before"> <i class="fa fa-quote-left"></i> </div>
+        <div class="successful-text">
+          
+          <p>My goal for the future is that more individuals with mental illnesses will be able to receive the treatment and resources they require since everyone deserves a happy ending.</p>
+          
+          <div class="successful-avatar">
+            <h3> Loly Moustafa</h3>
+           
+          </div>
+        </div>
+        <div class="successful-text-after"> <i class="fa fa-quote-right"></i> </div>
+      </div>
+    </div>
+    <!--seven-->
+    <div class="swiper-slide">
+      <div class="testi-item">
+        <div class="testi-avatar"> <img src="./images/5.png"> </div>
+        <div class="successful-text-before"> <i class="fa fa-quote-left"></i> </div>
+        <div class="successful-text">
+          
+          <p>My advise to anyone who is currently dealing with a mental issue is to remember that a diagnosis is not a death sentence, that things will get better, and that seeking treatment is a sign of strength.</p>
+          
+          <div class="successful-avatar">
+            <h3> Reem Ahmed</h3>
+           
+          </div>
+        </div>
+        <div class="successful-text-after"> <i class="fa fa-quote-right"></i> </div>
+      </div>
+    </div>
+    <!--eight-->
+    <div class="swiper-slide">
+      <div class="testi-item">
+        <div class="testi-avatar"> <img src="./images/7.png"> </div>
+        <div class="successful-text-before"> <i class="fa fa-quote-left"></i> </div>
+        <div class="successful-text">
+          
+          <p>I was able to go through my most recent struggles and medication changes without breaking down.<br> My career, relationships, and faith all survived, and my darkest worries were never true.<br> Was it simple? No, but it didn't throw my hard-won achievements into danger.</p>
+          
+          <div class="successful-avatar">
+            <h3>Marco Samir</h3>
+           
+          </div>
+        </div>
+        <div class="successful-text-after"> <i class="fa fa-quote-right"></i> </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+<div class="tc-pagination">
+ 
+</div>
+</div>
+</section>
+<!--succeeful stories-->
+<!--courses-->
+<div class="hidden">
+</div>
+<section id="course" class="courses">
+  <div class="courses-title">
+    <h1>Courses</h1>
+  </div>
+
+  <div class="courses-body ">
+      <div class="container">
+        <h2>Free</h2>
+        <div class="first row reveal">
+        
+          <div class="cor over col-lg-4 ">
+          <img src="images/over.png" alt="Over-Thinking">
+          
+            <a href="over.html"> <h3>Over-Thinking</h3></a>
+            <a href="over.html"> <button class="btn pre " type="button" name="continue">Join</button></a>
+          
+          </div>
+          <div class="cor over col-lg-4 ">
+              <img src="images/dep.png" alt="Depression">
+            
+                <a href="dep.html"> <h3>Depression</h3></a>
+                <a href="dep.html"> <button class="btn pre " type="button" name="continue">Join</button></a>
+            
+          </div>
+          <div class="cor over col-lg-4 ">
+                <img src="images/anx.png" alt="Anxiety">
+              
+                  <a href="anx.html"> <h3>Anxiety</h3></a>
+                  <a href="anx.html"> <button class="btn pre " type="button" name="continue">Join</button></a>
+              
+          </div>
+
+            
+        </div>
+        <h2>Premium</h2>
+        <div class="second row reveal">
+          <div class="cor over col-lg-4 col-md-6">
+            <img src="images/bully.png" alt="Bullying" />
+          
+              <a href="bully.html"> <h3>bullying</h3></a>
+              <a href="bully.html"> <button class="btn pre " type="button" name="continue">Join</button></a>
+          
+          </div>
+          <div class="cor over col-lg-4 col-md-6">
+                  <img src="images/self.png" alt="Self Confidence">
+                
+                    <a href="self.html"> <h3>Self Confidence</h3></a>
+                    <a href="self.html"> <button class="btn pre " type="button" name="continue">Join</button></a>
+                
+          </div>
+          <div class="cor over col-lg-4 col-md-6">
+                    <img src="images/work2.png" alt="Work Burnout">
+                  
+                      <a href="work.html"> <h3>Work Burnout</h3></a>
+                      <a href="work.html"> <button class="btn pre " type="button" name="continue">Join</button></a>
+                  
+          </div>
+
+                  
+        </div>
+    </div>
+  </div>
+</section>
+<!--courses-->
+<!--Yoga-->
+<section id="Yoga" class="courses">
+  <div class="container">
+  <div class="courses-title">
+    <h1>Yoga</h1>
+  </div>
+ 
+  <div class="courses-body ">
+    <h2>Free</h2>
+    <div class="first row reveal">
+      <div class="cor work col-lg-4 col-md-6">
+        <img src="images/vinyasa.png" alt="Vinyasa Yoga">
+      
+                <a href="vinyasa.html"><h3>Vinyasa Yoga</h3></a>
+          <a href="vinyasa.html"><button class="btn pre " type="button">Join</button></a>
+      
+      </div>
+      <div class=" cor work  col-lg-4 col-md-6">
+      
+        <img src="images/anusara.png" alt="Anusara Yoga">
+          <a href="anusara.html"><h3>Anusara Yoga</h3></a>
+          <a href="anusara.html"><button class="btn pre " type="button">Join</button></a>
+         
+        </div>
+        <div class=" cor work  col-lg-4 col-md-6">
+      
+          <img src="images/ashtanga.png" alt="Ashtanga Yoga">
+            <a href="ashtanga.html"><h3>Ashtanga Yoga</h3></a>
+            <a href="ashtanga.html"><button class="btn pre " type="button">Join</button></a>
+           
+          </div>
+        
+        </div>
+    
+      <!---------------------------------------------------------------------------- second row  -->
+      <h2>Premium</h2>
+      <div class="second row reveal">
+        <div class=" cor work  col-lg-4 col-md-6">
+      
+          <img src="images/hatha.png" alt="Hatha Yoga">
+            <a href="hatha.html"><h3>Hatha Yoga</h3></a>
+            <a href="hatha.html"><button class="btn pre " type="button">Join</button></a>
+           
+          </div>
+    <div class="cor work col-lg-4 col-md-6">
+      <img src="images/iyengar.png" alt="Iyengar Yoga">
+    
+        <a href="iyengar.html"><h3>Iyengar Yoga</h3></a>
+        <a href="iyengar.html"><button class="btn pre " type="button">Join</button></a>
+    
+  </div>
+  <div class="cor work col-lg-4 col-md-6">
+    <img src="images/restorative.png" alt="Restorative Yoga">
+  
+            <a href="restorative.html"><h3>Restorative Yoga</h3></a>
+      <a href="restorative.html"><button class="btn pre " type="button">Join</button></a>
+  
+</div>
+
+              
+      
+    </div>
+  </div>
+  </div>
+  </section>
+
+
+<!--Yoga-->
+<!--Contact Us-->
+
+<section id="contactu" class="contact">
+ 
+  <h1>Contact Us</h1>
+  <div class="contact-body row ">
+    <div class="contact-img col-lg-6 left ">
+      <img class="reveal img-fluid" src="./images/contact.png" alt="Contact Us">
+      </div>
+  <div class="contact-form col-lg-6 Right   shadow">
+\
+
+ <form method="POST"class="form-contain reveal" >
+
+   <div class="in ">
+     <input class="shadow form-control" type="text" name="name" placeholder="Your Name" required>
+   </div>
+   <div class="in">
+     <input class="shadow form-control" type="email" name="email" placeholder="Your Email" required>
+   </div>
+   
+   <div class="in form-floating">
+    <textarea class="form-control shadow" name="msg" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
+    <label for="floatingTextarea2">Your Message</label>
+  </div>
+ <button class="btn send">Send Message</button>
+ </form>
+  </div>
+  
+  </div>
+
+  </section>
+
+<!--Contact Us-->
+
+
+<!-- Footer -->
+<footer class="fo text-center text-lg-start ">
+  <div class="container">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="https://www.facebook.com/CuRelax-104760318952792" target="blank" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+     
+      <a href="https://www.instagram.com/curelax/" target="blank" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+   
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h4 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>About Us
+          </h4>
+          <p>
+            CuRelax is a website application that helps people who need  care and suffer from mild to moderate mental illness, by  providing them with yoga videos, courses, positive quotes, recommend games, books and movies, in addition to successful healing stories of people who were suffering from mental illness. 
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h5 class="text-uppercase fw-bold mb-4">
+            CuRelax
+          </h5>
+          <p>
+            <a  data-bs-toggle="modal" data-bs-target="#asses-modal" type="button" class="text-reset">Assesment</a>
+          </p>
+          <p>
+            <a href="#who" class="text-reset">Who Are We</a>
+          </p>
+          <p>
+            <a href="#success" class="text-reset">Successful Stories</a>
+          </p>
+          <p>
+            <a href="#course" class="text-reset">Courses</a>
+          </p>
+          <p>
+            <a href="#Yoga" class="text-reset">Yoga</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+    
+          <!-- Links -->
+          <h5 class="text-uppercase fw-bold mb-4">
+            Join 
+          </h5>
+          <p>
+            <a href="login.html" class="text-reset">Login</a>
+          </p>
+          <p>
+            <a href="reg.html" class="text-reset">Sign Up</a>
+          </p>
+        
+        </div>
+        
+
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h5 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h5>
+          <p><i class="fas fa-home me-3"></i> Zamalek, Cairo, EG</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            Curelax@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 00 16 85 02 3</p>
+          <p><i class="fas fa-print me-3"></i> + 01 10 09 29 60 5</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+</div>
+</footer>
+
+  <!-- Footer -->
+
+
+<!--end body-->
+
+<script src="https://kit.fontawesome.com/45c0401670.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.6/swiper-bundle.min.js" ></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/reveal.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/curelax.js"></script>
+    </body>
+</html>

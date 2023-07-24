@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+   height: 100vh;
+   width: 100vw;
+   background-image: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)), url(../images/wall7.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*------- Navigation menu -------*/
+.navbar-brand{
+    height: 3% !important;
+    padding-bottom: 2% !important;
+}
+.navbar-nav .nav-item .nav-link{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.navbar-nav{
+    align-self: center; 
+}
+.navbar{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100vw;
+    background-color: rgba(255,255,255,0.9) !important;
+}
+
+form .sign{
+    background-color: #6E9981;
+    color: #ffffff;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form .login{
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #6E9981;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form .sign:hover{
+    background-color: #6E9981;
+  border: none;
+  transition: 0.5s;
+  transform: scale(1.05,1.05);
+}
+form .login:hover{
+    background-color: #6E9981;
+    border: none;
+    transition: 0.5s;
+    transform: scale(1.05,1.05);
+}
+  button .nav-link{
+      text-decoration: none;  
+  }
+  .nav-link:hover{
+    color: #343a40;
+  }
+  
+
+  nav .container-fluid .collapse ul li.active a{
+      color: #000000;
+  }
+.dropdown {
+    list-style: none;
+    margin-right: 60px !important;
+   
+}
+.nav-link img{
+    border-radius: 50%;
+}
+.profile-menu{
+    border-radius: 20px !important;
+    
+}
+.profile-menu li .fa-solid{
+    margin-right: 5% !important;
+}
+.profile-menu h4{
+    text-align: center;
+}
+.dropdown-toggle{
+    color: #6E9981 !important;
+}
+.dropdown-item:hover{
+color: #6E9981 !important;
+background-color: transparent !important;
+}
+/*------- Navigation menu -------*/
+/*----edit modal----*/
+.edit-modal .modal{
+    margin-top: 6% !important;
+    z-index: 1000000;
+    }
+    .edit-modal .modal-content{
+        border-radius: 20px !important;
+    }
+    .edit-modal .modal-body{
+        height: 60vh !important;
+    }
+    .edit-modal h1{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #6E9981;
+    }
+    .profile-pic img{
+        border-radius: 50%;
+    }
+    .profile-pic{
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        left: 37%;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 1px solid #6E9981;
+    }
+    #photo{
+        width: 100%;
+        height: 100%;
+    }
+    #file{
+        display: none;
+    }
+    #uploadBtn{
+        height: 40px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        transform: translateX(-100%);
+        text-align: center;
+        background-color: rgba(0,0,0,0.7);
+        color: #ffffff;
+        line-height: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .cont{
+        margin-top: 40%;
+      
+       width: 95%;
+    }
+    .cont .col-lg-5 label{
+        width: 100%;
+        padding: 2%;
+        margin-bottom: 15%;
+    }
+    .cont .mb-3 label{
+        font-size: 17px;
+        margin-top: 3%;
+    }
+    
+    .cont .col-lg-5 input{
+        width: 100%;
+        padding: 3%;
+        margin-bottom: 15%;
+        border-radius: 15px;
+        border: 1px solid #50936a;
+    }
+    .edit-modal .form-check-label{
+        color: gray;
+    }
+    .edit-modal .modal-footer .btn{
+        background-color: #50936a;
+        border: none;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    .edit-modal .modal-footer .btn:hover{
+            transform: scale(1.2);
+            transition: 0.5s;
+        }
+        
+    /*----edit modal----*/
+        /*----change password----*/
+        .change-modal .modal{
+            margin-top: 13%;
+            z-index: 1000000;
+        }
+        .change-modal .modal-content{
+                border-radius: 20px !important;
+        }
+        .change-modal .modal-body{
+                height: 30vh !important;
+        }
+        .change-modal h1{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: #6E9981;
+        }
+        .change-modal .pass{
+            margin-top: 3.5%;
+        }
+        .change-modal .pass input{
+            padding: 2% !important;
+            width: 100%;
+            border-radius: 10px;
+            border: 1px solid #6E9981;
+        }
+        .change-modal .modal-footer .btn{
+            background-color: #6E9981;
+            border: none;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+        .change-modal .modal-footer .btn:hover{
+                transform: scale(1.2);
+                transition: 0.5s;
+            }
+        /*----change password----*/
+/*----asses modal---*/ 
+.asses-modal .modal{
+    margin-top: 4% !important;
+}
+.asses-modal .modal-content{
+    border-radius: 20px !important;
+}
+.asses-modal .modal-body{
+    height: 60vh !important;
+}
+.asses-modal h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6E9981;
+}
+.asses-modal .modal-footer .btn{
+background-color: #6E9981;
+border: none;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.asses-modal .modal-footer .btn:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+/*---------asses questions------*/
+.asses-Q legend{
+    width: 100%;
+}
+.asses-Q{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.asses-Q .form-check-label{
+    font-size: 13px;
+}
+#result{
+    line-height: 30px;
+}
+/*---------asses questions------*/
+/*----asses modal---*/ 
+.container1{
+    width: 500px;
+    padding: 25px;
+    margin: 25px auto 0;
+    box-shadow: 0 0 20 rgb(0, 0, 0 ,0.5);
+    border-radius: 10px;
+    margin-top: 10%;
+   
+}
+.container1 h2{
+    color: #009578;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+    border: 1px dashed #009578;
+}
+.container1 h4{
+   padding-bottom: 5px;
+   color: #009578;
+}
+.input_group{
+    margin-bottom: 8px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+
+}
+.input_box{
+    width: 100%;
+    margin-right: 12px;
+    position: relative;
+
+}
+.input_box:last-child{
+    margin-right: 0;
+}
+.input_box .name{
+    padding: 14px 10px 14px 50px;
+    width: 100%;
+    border: 1px solid #0003;
+    outline: none;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    border-radius: 3px;
+    color: #333;
+}
+.input_box .name:focus{
+    -webkit-box-shadow:0 0 2px 1px #009578;
+    -moz-box-shadow:0 0 2px 1px #009578;
+    box-shadow: 0 0 2px 1px #009578;
+    border:  1px solid #009578;;
+}
+.input_box .icon{
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    color: #333;
+    background-color: #f1f1f1;
+    border-radius: 2px 0 0 2px;
+    transition: 0.3s;
+    font-size: 20px;
+    pointer-events: none;
+    border: 1px solid #333;
+    border-right: none;
+}
+.name:focus+.icon{
+    background-color: #009578;
+    border: 1px solid #009578;
+    border: none;
+    transition: 1s;
+}
+.radio{
+    display: none;
+
+}
+.input_box label{
+    width: 50%;
+    padding: 16px;
+    display: inline-block;
+    float: left ;
+    text-align: center;
+    border: 1px solid #c0bfbf;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+
+}
+.input_box label:first-of-type{
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-right: none;
+}
+.input_box label:last-of-type{
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-right: none;
+}
+.radio:checked+label{
+    background-color: #009578;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.input_box button{
+    width: 100%;
+    background-color: #009578;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    border-right: 4px;
+    font-size: 16px;
+    transition: all 0.3 ease;
+    border-radius: 8px;
+    
+}
+.input_box button:hover{
+    background-color: #ffffff;
+    color: #009578;
+    cursor: pointer;
+}
+ /*----footer---*/
+
+ .fo{
+    margin-top: 10%;
+    background-color: rgba(255,255,255,0.8);
+}
+.fab:hover{
+    color: #6E9981!important;
+}
+.text-reset{
+    text-decoration: none;
+}
+
+.text-reset:hover{
+    color: #6E9981 !important;
+}
+.about-footer p{
+line-height: 35px;
+}
+  /*----footer---*/
+ 

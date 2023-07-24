@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Payment|CuRelax</title>
+  <link rel="icon" href="images/logo2.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/payment.css">
+
+</head>
+<body>
+<!--Navigation menu-->
+<nav class="navbar navbar-expand-lg navbar-light shadow">
+      <div class="container">
+        <a class="navbar-brand" href="curelax.html">
+        <img src="images/logo2.png" alt="" width="250" height="90" class="d-inline-block ">
+          
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <div class="nav_icon">
+            <div class="line"></div>
+          </div>
+          <ul class="navbar-nav me-auto mb-2 ms-5 mb-lg-0 fs-5 ">
+            <li class="nav-item ">
+              <a class="nav-link  " aria-current="page" href="curelax.html">Home</a>
+            </li>
+            <li class="nav-item who" >
+              <a class="nav-link who "  href="curelax.html#who"> Who Are We</a>
+            </li>
+            <li class="nav-item success">
+              <a class="nav-link "  href="curelax.html#success">Successful Stories</a>
+            </li>
+            
+            <li class="nav-item course">
+              <a class="nav-link "  href="curelax.html#course">Courses</a>
+            </li>
+            <li class="nav-item Yoga">
+              <a class="nav-link "  href="curelax.html#Yoga">Yoga</a>
+            </li>
+        </li>
+        <li class="nav-item contactu">
+          <a class="nav-link "  href="curelax.html#contactu">Contact Us</a>
+        </li>
+          </ul>
+                 <form class=" justify-content-end pt-2">
+                     
+                 <a href="reg.html">   <button class="btn sign btn-outline-dark me-2" type="button">Sign Up</button></a>
+               <a href="login.html"> <button class="btn  login btn-sm btn-outline-secondary" type="button">Login</button></a>
+   </form>
+      </div>
+    </nav>
+<!--Navigation menu-->
+    <div class="container1 pt-5">
+        <h2>Payment Details</h2>
+        <form action="payment.html" method="post">
+            <h4>Account</h4>
+            
+                <div class="input_group">
+                <div class="input_box">
+                    <input type="text" class="name" placeholder="Email" name="email">
+                    <i class="fa fa-envelope icon"></i>
+                </div>
+                </div>
+                
+          
+            <!--Account Info-->
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="text" class="name" placeholder="Name on card" name="cardname" required>
+                    <i class="fa fa-user icon"></i>
+                </div>
+                <div class="input_box">
+                    <input type="radio" name="pay" class="radio" id="bc1" name="cardtype" checked>
+                    <label for="bc1"><span><i class="fa-brands fa-cc-visa"></i> Credit card</span></label>
+                    <input type="radio" name="pay" class="radio" id="bc2" name="cardtype"  checked>
+                    <label for="bc2"><span><i class="fa-brands fa-cc-paypal"></i> Paypal</span></label>
+                    
+                </div>
+                
+                <div class="input_group">
+                    <div class="input_box">
+                    <input type="tel"  class="name"  maxlength="16" placeholder="Card number " name="cardnum" required>
+                   
+       
+      
+                        <i class="fa-solid fa-credit-card icon"></i>
+                    </div>
+</div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="tel"  class="name"  maxlength="3" placeholder="Card CVC " name="cardcvc" required>
+                        <i class="fa fa-user icon"></i>
+        
+        
+        
+                                </div>
+                                </div>
+                                
+<div class="input_group">
+    <div class="input_box">
+
+<input class="name" name="expiry" id="expiry" type="month" placeholder=" Card Expiry" required/>
+<i class="fa-solid fa-money-bills icon"></i>
+</div>
+    </div>
+                        
+                        <div class="input_group">
+                            <div class="input_box">
+                                
+                            <select   class="name"   name="cost" required>
+                                <option> Plan 1  </option>
+                                <option> Plan 2  </option>
+
+</select>
+                                <i class="fa-solid fa-money-bills icon"></i>
+                                   </div>
+                                    </div>
+                    <div class="input_group">
+                    <div class="input_box">
+                     <button type="submit"  name="pay" > Pay Now </button>
+                 
+                         </div>
+                         </div> 
+                
+            </div>
+
+
+
+        
+            
+        </div>
+        </form>
+    </div>
+<!-- Footer -->
+<section class="asses-modal">
+  <div class="modal fade" id="asses-modal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="modal-title">Assesment</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form name="assesQ" id="assesQ">
+          <h5>According to the last two weeks</h5>
+            <div>
+              <h6>1. Have you been less active than usual? (Health)</h6>
+              <p><input type="radio" name="Qu1" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu1" value="No"> No</p>
+            </div>
+            <div>
+              <h6>2. On average, do you get 7-8 hours of sleep? (Health)</h6>
+              <p><input type="radio" name="Qu2" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu2" value="No"> No</p>
+            </div>
+            <div>
+              <h6>3. Do you suffer from excessive appetite or loss of appetite? (Health)</h6>
+              <p><input type="radio" name="Qu3" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu3" value="No"> No</p>
+            </div>
+            <div>
+              <h6>4. During work/study hours, do you have a hard time staying focused and concentrating on the task at hand? (Physical Symptom)</h6>
+              <p><input type="radio" name="Qu4" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu4" value="No"> No</p>
+            </div>
+            <div>
+              <h6>5. Do you experience headaches or muscle tension? (Physical Symptom)</h6>
+              <p><input type="radio" name="Qu5" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu5" value="No"> No</p>
+            </div>
+            <div>
+              <h6>6. Are you able to control your emotions in stressful situations? (Emotional Symptom)</h6>
+              <p><input type="radio" name="Qu6" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu6" value="No"> No</p>
+            </div> 
+            <div>
+              <h6>7. These days, are you easily irritated? (Emotional Symptom)</h6>
+              <p><input type="radio" name="Qu7" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu7" value="No"> No</p>
+            </div>
+            <div>
+              <h6>8. Do you find yourself worrying excessively lately? (Emotional Symptom)</h6>
+              <p><input type="radio" name="Qu8" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu8" value="No"> No</p>
+            </div>
+            <div>
+              <h6>9. Do you find it difficult to express your needs and thoughts to others? (Emotional Symptom)</h6>
+              <p><input type="radio" name="Qu9" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu9" value="No"> No</p>
+            </div>
+            <div>
+              <h6>10. Do you struggle with fulfilling both your personal and work responsibilities lately? (General)</h6>
+              <p><input type="radio" name="Qu10" value="Yes"> Yes</p>
+              <p><input type="radio" name="Qu10" value="No"> No</p>
+            </div>
+            </form>
+          
+        </div>
+        <div class="modal-footer">
+          <input type="submit" name="save_result" data-bs-toggle="modal" data-bs-target="#result-modal" value="submit" class="btn btn-primary" onclick="check()">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="result-modal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="modal-title">Your Result</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p id="result"></p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="fo text-center text-lg-start ">
+  <div class="container">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="https://www.facebook.com/CuRelax-104760318952792" target="blank" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.instagram.com/curelax/" target="blank"  class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 about-footer col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h4 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>About Us
+          </h4>
+          <p>
+            CuRelax is a website application that helps people who need  care and suffer from mild to moderate mental illness, by  providing them with yoga videos, courses, positive quotes, recommend games, books and movies, in addition to successful healing stories of people who were suffering from mental illness. 
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h5 class="text-uppercase fw-bold mb-4">
+            CuRelax
+          </h5>
+          <p>
+            <a  data-bs-toggle="modal" data-bs-target="#asses-modal" type="button" class="text-reset">Assesment</a>
+          </p>
+          <p>
+            <a href="curelax.html" class="text-reset">Home</a>
+          </p>
+          <p>
+            <a href="curelax.html#who" class="text-reset">Who Are We</a>
+          </p>
+          <p>
+            <a href="curelax.html#success" class="text-reset">Successful Stories</a>
+          </p>
+          <p>
+            <a href="curelax.html#course" class="text-reset">Courses</a>
+          </p>
+          <p>
+            <a href="curelax.html#Yoga" class="text-reset">Yoga</a>
+          </p>
+          <p>
+            <a href="curelax.html#contactu" class="text-reset">Contact Us</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+       
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h5 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h5>
+          <p><i class="fas fa-home me-3"></i> Zamalek, Cairo, EG</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            Curelax@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 00 16 85 02 3</p>
+          <p><i class="fas fa-print me-3"></i> + 01 10 09 29 60 5</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+</div>
+</footer>
+<!-- Footer -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/curelax.js"></script>
+
+</body>
+</html>
